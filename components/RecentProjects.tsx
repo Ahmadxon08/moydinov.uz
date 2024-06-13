@@ -49,11 +49,14 @@ const RecentProjects = () => {
                       <img src={icon} alt="icons" className="p-2" />
                     </div>
                   ))}
+
+
+                  
                 </div>
                 <div className="flex justify-center items-center">
                   <p className="flex sm:text-sm lg:text-xl md:text-xs text-sm text-purple">
                     Check this project
-                    <FaLocationArrow className="ms-3" className="sm:w-[40px] sm:h-[40px]"/>
+                    <FaLocationArrow className="ms-3" />
                   </p>
                 </div>
               </div>
