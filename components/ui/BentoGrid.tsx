@@ -17,7 +17,6 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        // change gap-4 to gap-8, change grid-cols-3 to grid-cols-5, remove md:auto-rows-[18rem], add responsive code
         "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
         className
       )}
@@ -53,8 +52,9 @@ export const BentoGridItem = ({
     navigator.clipboard.writeText("contact@example.com");
     setCopied(true);
     console.log(copied);
-    
   };
+  const leftLists = ["ReactJS", "Express", "Typescript"];
+  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
 
   return (
     <div
@@ -107,22 +107,31 @@ export const BentoGridItem = ({
           <div className="font-sans font-exrtalight  text-[#c1c2d3] text-sm md:text-xl lg:text-base z-10">
             {description}
           </div>
-          <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+          <div className="font-sans  font-bold text-lg lg:text-3xl max-w-96 z-10">
             {title}
           </div>
-
           {id === 3 && (
-            <div className="gap-4 ml-[20px] flex lg:gap-5 w-fit absolute -right-3 lg:-right-[100px] overflow-hidden">
-              <div className="flex flex-col gap-2 lg:gap-8">
-                {["React.js", "Next.js", "Typescript"].map((item, i) => (
-                  <span key={item} className="flex text-center rounded-lg lg:opasity-100 py-2 text-xl px-1 bg-[#10132e]">
+            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-6 lg:-right-8">
+              <div className="flex flex-col gap-3   md:gap-3 lg:gap-3">
+                {leftLists.map((item, i) => (
+                  <span
+                    key={i}
+                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                  >
                     {item}
                   </span>
                 ))}
+                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
               </div>
-              <div className="flex flex-col gap-2 lg:gap-8">
-                {["Redux", "Zustand", "SCSS"].map((item, ) => (
-                  <span key={item} className="flex text-center rounded-lg lg:opasity-100 py-2 text-xl px-1 bg-[#10132e]">
+              <div className="flex flex-col gap-3 md:gap-3 relative   lg:gap-3">
+                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+                {rightLists.map((item, i) => (
+                  <span
+                    key={i}
+                    className="lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                  >
                     {item}
                   </span>
                 ))}
