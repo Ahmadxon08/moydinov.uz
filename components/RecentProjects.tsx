@@ -14,13 +14,13 @@ const RecentProjects = () => {
         {projects.map((pro) => (
           <div
             key={pro.id}
-            // Set width to 360px for small screens and 570px for medium screens and above
-            className="flex flex-col mx-auto h-[32rem] w-[320px] md:w-[570px] items-center justify-center"
+            // 
+            className="flex flex-col mx-auto h-[32rem] w-[280px] md:w-[570px] items-center justify-center"
           >
             <PinContainer title={pro.link} href={pro.link}>
               <div
-                // Set inner container width to 360px for small screens and 570px for medium screens and above
-                className="flex relative h-[30vh] items-center mb-10 w-[340px] md:w-[570px] overflow-hidden lg:h-[30vh]"
+                // S
+                className="flex relative h-[30vh] items-center mb-10 w-[280px] md:w-[570px] overflow-hidden lg:h-[30vh]"
               >
                 <div className="flex relative h-full w-full">
                   <img
@@ -42,8 +42,8 @@ const RecentProjects = () => {
                 {pro.des}
               </p>
               <div
-                // Ensure icons container also maintains the respective widths
-                className="flex justify-between w-[360px] md:w-[570px] items-center mb-3 mt-7"
+                // 
+                className="flex justify-between w-[280px] md:w-[570px] items-center mb-3 mt-7"
               >
                 <div className="flex items-center">
                   {pro?.iconLists.map((icon, i) => (
