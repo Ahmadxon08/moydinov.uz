@@ -94,8 +94,9 @@ export const projects = [
     des: "A single shopping page is an all-in-one page that allows you to display specific product information to the visitors so that they can instantly buy your products. The displayed information can be Product Title, Product Image, Product Price, Product Description. ",
     img: "/shopp.png",
     iconLists: ["/re.svg", "/sass.png", ],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "https://shopping-01.vercel.app/",
   },
+  
   {
     id: 4,
     title: "Countries site", 
