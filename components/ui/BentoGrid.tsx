@@ -53,8 +53,8 @@ export const BentoGridItem = ({
     setCopied(true);
     console.log(copied);
   };
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["ReactJS", "Bootsrap", "Typescript"];
+  const rightLists = ["TailwindCss", "NextJS", "Sass"];
 
   return (
     <div
