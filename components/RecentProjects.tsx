@@ -1,3 +1,4 @@
+
 import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "../data";
 import { PinContainer } from "./ui/3D-pin";
@@ -13,10 +14,14 @@ const RecentProjects = () => {
         {projects.map((pro) => (
           <div
             key={pro.id}
-            className="flex flex-col sm:h-[41rem] h-[32rem] sm:w-[570px] w-full lg:min-h-[32.5rem] items-center justify-center"
+            // Set width to 360px for small screens and 570px for medium screens and above
+            className="flex flex-col mx-auto h-[32rem] w-[320px] md:w-[570px] items-center justify-center"
           >
             <PinContainer title={pro.link} href={pro.link}>
-              <div className="flex relative sm:h-[40vh] h-[30vh] items-center mb-10 md:w-[570px] sm:w-[370px] w-full overflow-hidden lg:h-[30vh]">
+              <div
+                // Set inner container width to 360px for small screens and 570px for medium screens and above
+                className="flex relative h-[30vh] items-center mb-10 w-[340px] md:w-[570px] overflow-hidden lg:h-[30vh]"
+              >
                 <div className="flex relative h-full w-full">
                   <img
                     src={bg}
@@ -36,7 +41,10 @@ const RecentProjects = () => {
               <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
                 {pro.des}
               </p>
-              <div className="flex justify-between items-center mb-3 mt-7">
+              <div
+                // Ensure icons container also maintains the respective widths
+                className="flex justify-between w-[360px] md:w-[570px] items-center mb-3 mt-7"
+              >
                 <div className="flex items-center">
                   {pro?.iconLists.map((icon, i) => (
                     <div
@@ -44,14 +52,11 @@ const RecentProjects = () => {
                       style={{
                         transform: `translateX(-${5 * i * 2}px)`,
                       }}
-                      className="border bg-black  lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center  border-white/[0.2] rounded-full"
+                      className="border bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center border-white/[0.2] rounded-full"
                     >
                       <img src={icon} alt="icons" className="p-2" />
                     </div>
                   ))}
-
-
-                  
                 </div>
                 <div className="flex justify-center items-center">
                   <a href={pro.link} target="blank" className="flex sm:text-sm lg:text-xl md:text-xs text-sm text-purple">
