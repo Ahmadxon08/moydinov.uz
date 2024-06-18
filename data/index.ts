@@ -223,6 +223,6 @@ export const socialMedia = [
   {
     id: 4,
     img: "/tel.png",
-    link: "https://t.me/+998944995759",
+    link: "tel:+998944995759",
   },
 ];

@@ -8,7 +8,6 @@ import { navItems } from "../../data";
 import Experience from "../../components/Experients";
 import Approach from "../../components/Approach";
 import Footer from "../../components/Footer";
-import Resume from "../../components/Resume";
 
 const Home = () => {
   return (
