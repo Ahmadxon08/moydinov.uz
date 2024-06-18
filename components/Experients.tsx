@@ -7,7 +7,7 @@ const Experience = () => {
     <div className="py-20">
       <h1 className="heading">
         My
-        <span className="text-purple ml-6">work experience</span>
+        <span className="text-blue-400 ml-6">work experience</span>
       </h1>
       <div className="grid w-full mt-12 lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (

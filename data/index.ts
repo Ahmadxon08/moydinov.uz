@@ -1,7 +1,6 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -30,7 +29,8 @@ export const gridItems = [
     id: 3,
     // title: "My tech stack",
     // description: "I constantly try to improve",
-    className: "lg:col-span-2 p-[40px] flex justify-between  md:col-span-3 md:row-span-2",
+    className:
+      "lg:col-span-2 p-[40px] flex justify-between  md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center ",
     img: "",
@@ -72,35 +72,37 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Crypto charts and values",
+    des: " Online platforms where users can buy, sell, and trade cryptocurrencies using fiat currency or other cryptocurrencies. ",
+    img: "/crypto.png",
+    iconLists: ["/re.svg", "./sass.png", "./st.jpeg", "./mui.jpg"],
+    link: "https://exam-8-tau.vercel.app/",
   },
+
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "To-do project site",
+    des: "It's a project that you can to complete or things that you want to do by the help of it. Most typically, they're organised in order of priority.",
+    img: "/dodo.png",
+    iconLists: ["/re.svg", "/sass.png"],
+    link: "https://redux-toolkit-sandy.vercel.app/",
   },
+
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    title: "Single shopping site",
+    des: "A single shopping page is an all-in-one page that allows you to display specific product information to the visitors so that they can instantly buy your products. The displayed information can be Product Title, Product Image, Product Price, Product Description. ",
+    img: "/shopp.png",
+    iconLists: ["/re.svg", "/sass.png", ],
     link: "https://github.com/adrianhajdin/ai_saas_app",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Countries site", 
+    des: "The world is a busy place with changing politics and constantly updated events taking place. But we make it easy to see all the important information for each country at a glance, as well as flag information and an atlas overview for whatever area you are most curious about.",
+    img: "/contr.png",
+    iconLists: ["/html.png", "/js.png", "/sass.png",],
+    link: "https://exam-5-gamma.vercel.app/",
   },
 ];
 
@@ -182,14 +184,14 @@ export const workExperience = [
     id: 2,
     title: "Mobile App Dev - JSM Tech",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "English language knowledge",
+    desc: "I've been learning English language for approximately 2 years and by it I've been enhancing search and solf skills.  ",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
@@ -205,13 +207,22 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Ahmadxon08",
   },
+
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/tg.svg",
+    link: `https://t.me/Developer0_01`,
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/insta.svg",
+    link: "https://www.instagram.com/moyd1noff_001/",
+  },
+  {
+    id: 4,
+    img: "/tel.png",
+    link: "https://t.me/+998944995759",
   },
 ];

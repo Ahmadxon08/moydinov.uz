@@ -7,9 +7,9 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        A small selection <span>recent projects</span>
+        A small selection <span className="text-blue-400">recent projects</span>
       </h1>
-      <div className="flex flex-wrap justify-center items-center p-4 gap-x-4 gap-y-8 mt-10">
+      <div className="flex flex-wrap justify-between items-center p-4 gap-x-4 gap-y-8 mt-10">
         {projects.map((pro) => (
           <div
             key={pro.id}
@@ -54,10 +54,10 @@ const RecentProjects = () => {
                   
                 </div>
                 <div className="flex justify-center items-center">
-                  <p className="flex sm:text-sm lg:text-xl md:text-xs text-sm text-purple">
+                  <a href={pro.link} target="blank" className="flex sm:text-sm lg:text-xl md:text-xs text-sm text-purple">
                     Check this project
                     <FaLocationArrow className="ms-3" />
-                  </p>
+                  </a>
                 </div>
               </div>
             </PinContainer>
