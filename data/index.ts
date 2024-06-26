@@ -2,6 +2,10 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
+  {
+    name: "My resume",
+    link: "https://drive.google.com/file/d/16qyje05vTfzM3KFY72Sppzl3xLGNxSLp/view",
+  },
 ];
 
 export const gridItems = [
@@ -93,16 +97,16 @@ export const projects = [
     title: "Single shopping site",
     des: "A single shopping page is an all-in-one page that allows you to display specific product information to the visitors so that they can instantly buy your products. The displayed information can be Product Title, Product Image, Product Price, Product Description. ",
     img: "/shopp.png",
-    iconLists: ["/re.svg", "/sass.png", ],
+    iconLists: ["/re.svg", "/sass.png"],
     link: "https://shopping-01.vercel.app/",
   },
-  
+
   {
     id: 4,
-    title: "Countries site", 
+    title: "Countries site",
     des: "The world is a busy place with changing politics and constantly updated events taking place. But we make it easy to see all the important information for each country at a glance, as well as flag information and an atlas overview for whatever area you are most curious about.",
     img: "/contr.png",
-    iconLists: ["/html.png", "/js.png", "/sass.png",],
+    iconLists: ["/html.png", "/js.png", "/sass.png"],
     link: "https://exam-5-gamma.vercel.app/",
   },
 ];
@@ -225,5 +229,10 @@ export const socialMedia = [
     id: 4,
     img: "/tel.png",
     link: "tel:+998944995759",
+  },
+  {
+    id: 5,
+    img: "/linkdn.png",
+    link: "https://www.linkedin.com/in/ahmadxon-moydinov-9a30b9238/",
   },
 ];

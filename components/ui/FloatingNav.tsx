@@ -68,6 +68,7 @@ export const FloatingNav = ({
       >
         {navItems.map((navItem: any, idx: number) => (
           <Link
+          target="blank"
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(

@@ -49,7 +49,7 @@ export const BentoGridItem = ({
 }) => {
   const [copied, setCopied] = useState(false);
   const handleCopied = () => {
-    navigator.clipboard.writeText("contact@example.com");
+    navigator.clipboard.writeText("ahmadxonmoydinov@gmail.com");
     setCopied(true);
     console.log(copied);
   };
