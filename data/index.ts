@@ -3,7 +3,7 @@ export const navItems = [
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
   {
-    name: "My resume",
+    name: "Resume",
     link: "https://drive.google.com/file/d/16qyje05vTfzM3KFY72Sppzl3xLGNxSLp/view",
   },
 ];
