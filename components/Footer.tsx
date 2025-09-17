@@ -11,7 +11,8 @@ const Footer = () => {
       </div>
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-blue-400">your</span> precence next level
+          Ready to take <span className="text-blue-400">your</span> precence
+          next level
         </h1>
         <p className="text-white-200 md:mt-20 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you
@@ -27,7 +28,7 @@ const Footer = () => {
       </div>
       <div className="flex gap-[30px] justify-between mt-16 md:flex-row flex-col !items-center">
         <p className="md:text-base sm:mb-6 text-sm md:font-normal font-light">
-          Copyright © 2024 Ahmadxon
+          Copyright © 2024
         </p>
         <div className="flex items-center  md:gap-3 gap-6">
           {socialMedia.map((pro) => (

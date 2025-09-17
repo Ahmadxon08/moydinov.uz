@@ -4,7 +4,7 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
   {
     name: "Resume",
-    link: "https://drive.google.com/file/d/16qyje05vTfzM3KFY72Sppzl3xLGNxSLp/view",
+    link: "https://drive.google.com/file/d/1iLKx-c_MCsOsGkefd9v7S7SbrnHj-piY/view?usp=drive_link",
   },
 ];
 
@@ -187,7 +187,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Mobile App Dev Intern",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
@@ -218,7 +218,7 @@ export const socialMedia = [
   {
     id: 2,
     img: "/tg.svg",
-    link: `https://t.me/Developer0_01`,
+    link: `https://t.me/software707`,
   },
   {
     id: 3,
