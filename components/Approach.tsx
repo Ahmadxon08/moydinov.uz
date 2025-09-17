@@ -2,7 +2,6 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/Canvas";
-import Image from "next/image";
 
 const Approach = () => {
   return (

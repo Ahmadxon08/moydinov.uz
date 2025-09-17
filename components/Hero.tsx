@@ -7,7 +7,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div id="about" className="pb-20 pt-36">
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -21,9 +21,8 @@ const Hero = () => {
           className="-top-100 md:w-full -right-10 w-full md:-right-32 md:-top-20 h-screen"
           fill="blue"
         />
-     
       </div>
-     
+
       <div
         className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
        absolute top-0 left-0 flex items-center justify-center"
@@ -40,7 +39,6 @@ const Hero = () => {
             Dynamic Web Magic with Next.js
           </p>
 
-          
           <p className="text-center md:tracking-wider mb-2 mt-3 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Ahmadxon, a Front End Developer.
           </p>
@@ -49,7 +47,7 @@ const Hero = () => {
             className="text-center sm:mb-5 text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <a href="#projects" >
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
